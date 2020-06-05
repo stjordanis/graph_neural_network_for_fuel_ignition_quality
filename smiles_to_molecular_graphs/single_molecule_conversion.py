@@ -44,6 +44,8 @@ def process(smiles):
         return None
 
     mol = Chem.rdmolfiles.MolFromSmiles(smiles)
+    mol_block = Chem.MolToMolBlock(mol)
+    mol = Chem.MolFromMolBlock(mol_block)
     if mol is None:
         print('Invalid molecule (None)')
         return None

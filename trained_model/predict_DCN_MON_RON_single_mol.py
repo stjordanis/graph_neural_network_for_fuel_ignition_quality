@@ -92,7 +92,7 @@ data = TwoLocal()(data)   # create higher-dimensional graph (2)
 data.x = x
 
 # TODO: for more general model, all possible isomorphism types should be included already in training (problem: if no molecules containing these additional isomorphism types are included in training, part of network will not be trained)
-tmp_iso_type_2 = torch.tensor([4,5,8,14,15] + data.iso_type_2.tolist())   # workaround to include isomorphism types for 2-GNN included in the training data (CC, CO, OO, CC bonded, CO bonded)
+tmp_iso_type_2 = torch.tensor([4,5,8,13,14] + data.iso_type_2.tolist())   # workaround to include isomorphism types for 2-GNN included in the training data (CC, CO, OO, CC bonded, CO bonded)
 tmp_iso_type_2 = torch.unique(tmp_iso_type_2, True, True)[1]
 data.iso_type_2 = tmp_iso_type_2[5:]
 data.iso_type_2 = F.one_hot(data.iso_type_2, num_classes=num_i_2).to(torch.float)
