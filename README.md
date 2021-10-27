@@ -2,7 +2,7 @@
 
 This is the source code for the paper **Graph Neural Networks for Prediction of Fuel Ignition Quality** (**[https://doi.org/10.26434/chemrxiv.12280325.v1](https://doi.org/10.26434/chemrxiv.12280325.v1)**). 
 
-You can also run the code via our free web frontend avaibale here: [https://www.avt.rwth-aachen.de/gnn](https://www.avt.rwth-aachen.de/gnn).
+You can also run the code via our free web frontend avaibale here: [https://www.avt.rwth-aachen.de/gnn](https://www.avt.rwth-aachen.de/gnn)
 
 ## Overall model structure
 
