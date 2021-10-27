@@ -1,6 +1,6 @@
 # Graph neural networks for ignition quality prediction
 
-This is the source code for the paper **Graph Neural Networks for Prediction of Fuel Ignition Quality** (**[https://doi.org/10.26434/chemrxiv.12280325.v1](https://doi.org/10.26434/chemrxiv.12280325.v1)**). 
+This is the source code for the paper **Graph Neural Networks for Prediction of Fuel Ignition Quality** (**[https://doi.org/10.1021/acs.energyfuels.0c01533](https://doi.org/10.1021/acs.energyfuels.0c01533)**). 
 
 You can also run the code via our free web frontend avaibale here: [https://www.avt.rwth-aachen.de/gnn](https://www.avt.rwth-aachen.de/gnn)
 
@@ -38,17 +38,21 @@ This repository contains following folders:
 
 ## How to cite this work
 
-Please cite [our preprint]((https://doi.org/10.26434/chemrxiv.12280325.v1)) if you use this code:
+Please cite [our paper](https://doi.org/10.1021/acs.energyfuels.0c01533) if you use this code:
 
 This paper:
 
 ```
-@article{Schweidtmann_GNN_Fuel.2020,
-  title={Graph Neural Networks for Prediction of Fuel Ignition Quality},
-  author={Schweidtmann, Artur M. and Rittig, Jan G. and K\"onig, Andrea and Grohe, Martin and Mitsos, Alexander and Dahmen, Manuel},
-  journal={ChemRxiv Preprint},
-  year={2020},
-  doi={https://doi.org/10.26434/chemrxiv.12280325.v1}
+@article{Schweidtmann.2020,
+ author = {Schweidtmann, Artur M. and Rittig, Jan G. and K{\"o}nig, Andrea and Grohe, Martin and Mitsos, Alexander and Dahmen, Manuel},
+ title = {Graph Neural Networks for Prediction of Fuel Ignition Quality},
+ journal = {Energy {\&} Fuels},  
+ pages = {11395--11407},
+ volume = {34},
+ number = {9},
+ issn = {0887-0624},
+ year = {2020},
+ doi = {10.1021/acs.energyfuels.0c01533},
 }
 ```
 
